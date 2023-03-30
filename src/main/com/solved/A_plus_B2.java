@@ -1,14 +1,13 @@
+package com.solved;
 
 import java.util.Scanner;
 
-public class Main {
+public class A_plus_B2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-
         int a = in.nextInt();
+        int b = in.nextInt();
 
-        for (int i=1;i<=a;i++) {
-            System.out.println(i);
-        }
+        System.out.println(a+b);
     }
 }
