@@ -8,7 +8,7 @@ public class Checksum {
 
     public static void main(String[] args) {
         LinkedList<Integer> li = new LinkedList<Integer>();
-        LinkedList<Double> li2 = new LinkedList<Double>();
+        LinkedList<Integer> li2 = new LinkedList<Integer>();
 
         Scanner in = new Scanner(System.in);
 
@@ -17,9 +17,18 @@ public class Checksum {
         }
 
         Iterator iter = li.iterator();
+
         while (iter.hasNext()) {
-            li2.add(Math.pow(iter.next().hashCode(),2));
-            System.out.println(iter.next().hashCode());
+            li2.add((int)Math.pow(Integer.parseInt(String.valueOf(iter.next())),2));
         }
+
+        Iterator iter2 = li2.iterator();
+
+        int sum = 0;
+        while (iter2.hasNext()) {
+            sum += Integer.parseInt(String.valueOf(iter2.next()));
+        }
+
+        System.out.println(sum%10);
     }
 }
