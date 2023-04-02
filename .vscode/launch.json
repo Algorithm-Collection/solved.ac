@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/yudong-yun/git_hub/solved.ac",
-      "program": "/Users/yudong-yun/git_hub/solved.ac/build/Debug/outDebug"
+      "cwd": "/Users/yudong-yun/git_hub/solved.ac/c++",
+      "program": "/Users/yudong-yun/git_hub/solved.ac/c++/build/Debug/outDebug"
     }
   ]
 }
