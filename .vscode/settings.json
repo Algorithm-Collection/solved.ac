@@ -37,6 +37,7 @@
   "files.associations": {
     "iostream": "cpp",
     "bitset": "cpp",
-    "istream": "cpp"
+    "istream": "cpp",
+    "ostream": "cpp"
   }
 }
