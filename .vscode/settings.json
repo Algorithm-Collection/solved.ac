@@ -40,6 +40,8 @@
     "istream": "cpp",
     "ostream": "cpp",
     "__string": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "string": "cpp",
+    "iosfwd": "cpp"
   }
 }
