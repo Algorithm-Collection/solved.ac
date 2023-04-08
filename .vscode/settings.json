@@ -39,6 +39,7 @@
     "bitset": "cpp",
     "istream": "cpp",
     "ostream": "cpp",
-    "__string": "cpp"
+    "__string": "cpp",
+    "algorithm": "cpp"
   }
 }
