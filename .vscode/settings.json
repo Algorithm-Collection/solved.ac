@@ -42,7 +42,8 @@
     "__string": "cpp",
     "algorithm": "cpp",
     "string": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "iterator": "cpp"
   },
   "githubPullRequests.ignoredPullRequestBranches": [
     "main"
